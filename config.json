@@ -1,0 +1,17 @@
+{
+  "inbounds": [{
+    "port": 10086,
+    "listen": "0.0.0.0",
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{
+        "id": "uuid-unik-anda",
+        "alterId": 64
+      }]
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
